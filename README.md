@@ -1,4 +1,3 @@
-# Spatial-Data-Processing
 # Spatio-Temporal Data Processing on Apache Spark/Apache Sedona
 The purpose of this repository is to perform spatial and temporal data processing steps using Apache Sedona on the raw dataset of NYC Taxi Trip records (https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page). The final goal is to convert the dataset into two tensors: i) spatio-temporal tensor where total spatial NYC taxi zone is divided into a number of polygons/zones, and number of taxi pickups happened at each of the spatial zones are recorded in a temporal requence of 1 hour interval, ii) spatial grid tensor where spatial NYC taxi zone is converted into a grid of m by n cells, and each cell in the grid contains a feature vector of taxi trip records,
 
